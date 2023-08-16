@@ -1,8 +1,6 @@
 <?php
 session_start();
-
-// Destroy session and redirect to login page
 session_destroy();
-header('Location: signup.php');
-exit();
+header('Location: index.php');
+exit;
 ?>
